@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TaskActivity"
+    android:gravity="center"
+    android:background="@drawable/back_color_trans">
+
+    <TextView
+
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="GÖREV EKLEME EKRANI"
+       android:textColor="@color/colorWhite"
+
+        />
+
+    <EditText
+        android:background="@drawable/text_back_corner"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:id="@+id/editText3"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:textSize="13dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Görevi Yazınız"
+        android:textColorHint="@color/colorWhite"/>
+
+    <Button
+        android:textColor="@color/colorGreen"
+        android:background="@drawable/buton_back_corner"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:hint="Görevi Kaydet"
+        android:textColorHint="@color/colorGreen"/>
+
+    <Button
+
+        android:background="@drawable/buton_back_corner"
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="Görevi Sil"
+        android:textColorHint="@color/colorGreen"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buton_back_corner"
+        android:hint="Listele"
+        android:textColorHint="@color/colorGreen" />
+    <TextView
+       android:layout_marginTop="60dp"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Veriler Bu Kısımda Listelenicek"
+        android:textColor="@color/colorWhite"
+        />
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:gravity="center"
+    android:background="@drawable/back_color_trans">>
+
+    <ImageView
+
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/yaprak" />
+
+    <EditText
+        android:id="@+id/log_user"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/text_back_corner"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Kullanıcı Adı"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="13dp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/log_pas"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_back_corner"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Kullanıcı Sifre"
+        android:inputType="textPassword"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="13dp"
+
+        />
+
+    <Button
+
+        android:id="@+id/log_bot"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buton_back_corner"
+        android:hint="Giriş"
+
+        android:textColorHint="@color/colorGreen" />
+
+    <TextView
+
+        android:id="@+id/textView1"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Kayıt Ol"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <color name="green">#7FCF4B</color>
+    <string name="app_name">TeknarScrum</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="person">
+        <item>Şamil</item>
+        <item>Hasan</item>
+        <item>Yunus</item>
+        <item>Seda</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="task">
+        <item>Kitap Okuma</item>
+        <item>Masa Tenisi</item>
+        <item>EF Hesap</item>
+        <item>Farklı</item>
+    </string-array>
+</resources>
